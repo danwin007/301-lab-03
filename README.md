@@ -7,7 +7,7 @@ Coding Partners: Daniel Nguyen, Krystal Madrinan
 # Feature 1 - Pagination
 Number and name of feature: ________________________________
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: __1 hour___
 
 Start time: _____
 
@@ -18,9 +18,9 @@ Actual time needed to complete: _____
 # Feature 2 - Templating
 Number and name of feature: ________________________________
 
-Estimate of time needed to complete: 
+Estimate of time needed to complete: 1 hour
 
-Start time: 
+Start time: 7:00pm
 
 Finish time: 
 
