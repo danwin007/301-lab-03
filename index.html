@@ -11,20 +11,33 @@
   <link rel="stylesheet" href="css/modules.css">
   <link href="https://fonts.googleapis.com/css?family=New+Rocker&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!-- this is our handlebars template -->
+   <script id="horns-template" type="text/x-handlebars-template">
+    <section>
+        <h2>{{title}}</h2>
+        <img src={{image_url}} alt={{title}} class={{keyword}}>
+        <p>{{description}}</p>
+    </section>
+</script>
 </head>
 
 <body>
   <header>
     <h1>The Gallery of Horns</h1>
+    <div>
+      <p id="pg1">Page 1</p>
+      <p id="pg2">Page 2</p>
+    </div>
     <select id="filter">
       <option value="default">Filter by Keyword</option>
     </select>
   </header>
   <main>
     <section id="photo-template">
-      <h2></h2>
+      <!-- <h2></h2>
       <img src="" alt="">
-      <p></p>
+      <p></p> -->
     </section>
   </main>
   <footer>
@@ -32,7 +45,8 @@
   </footer>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script src="/js/app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.js"></script>
+  <script src="/js/app2.js"></script>
 </body>
 
 </html>
